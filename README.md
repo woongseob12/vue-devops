@@ -1,29 +1,14 @@
-# vue-devops
+# Vue CLI 기반 DevOps 개발환경 실습
 
-## Project setup
-```
-npm install
-```
+## 의도 및 목적
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Vue.js를 사용한 프로젝트가 개발 직후 백엔드 없이 어떻게 배포가 되는지 이해해보는 실습 과정
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 실습 과정
 
-### Run your unit tests
-```
-npm run test:unit
-```
+1. 정적 페이지를 호스팅할 수 있도록 GitHub Pages를 이용하여 배포 
+2. 이후 이 과정을 소스코드 Commit & Push 만으로 자동화 할 수 있는 WorkFlow 구성
+3. GitHub Actions를 통해 배포 자동화를 완료
+4. 테스트 성공/실패 여부에 따라 배포 자동화가 동작하는지 확인
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
