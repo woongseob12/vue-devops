@@ -1,11 +1,14 @@
 <template>
   <div class="hello">
-    <h1>Vue 배포 연습 끝</h1>
+    <h1>{{ msg }}</h1>
   </div>
 </template>
 
 <script>
 export default {
   name: "HelloWorld",
+  props: {
+    msg: String,
+  }
 };
 </script>

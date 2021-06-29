@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld />
+  <HelloWorld msg="배포 연습 끝!" />
 </template>
 
 <script>
